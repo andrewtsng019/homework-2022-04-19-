@@ -1,0 +1,239 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+        
+        .mobile-block {
+            width: 375px;
+            background-color: #f1f1f1;
+            padding-bottom: 20px;
+            margin: 0 auto;
+        }
+
+    
+
+        .ham>div {
+            width: 28px;
+            border: 1px solid #c71b0a;
+            margin-left: 100px;
+            margin-right: 20px;
+            margin-top: 10px;
+
+        }
+        
+        .header> .ham{
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .header >.logo{
+            vertical-align: middle;
+            display: inline-block;
+            width:219px;
+        }
+        
+        .subtitle{
+            position: absolute;
+            width: 326px;
+            height: 50px;
+            margin-left:32px;
+            margin-right:17px;
+            margin-bottom:7px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 50px;
+        }
+
+        p {
+            width: 300px;
+            font-size: 20px;
+            line-height: 40px;
+            font-weight: 400;
+            text-align: justify;
+            font-family: 'Noto Sans TC';
+
+            /* 水平置中*/
+
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            width: 326px;
+            font-weight: 700 bold;
+            font-size: 34px;
+            color: #404040;
+            line-height: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 34px;
+            margin-top: 50px;
+        }
+
+        figure {
+            margin: 0px;
+            width: 100%
+                /*img的爸爸是figure，figure的爸爸是moblie-block，所以這裡上上100％的意思是要跟著祖先的width走*/
+
+        }
+        
+        figure img{
+            width: 100%;
+        }
+
+        figure.hero-image img {
+          width:100%;
+        }
+
+       
+        figure.hero-image figcaption {
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 400;
+          color: #808080;
+          margin-left: 8px;
+          margin-right: 8px;
+          margin-top:20px;
+          text-align: justify;
+          
+        }
+
+        figure.mobile-block figcaption {
+            width: 235px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: #999999;
+            margin-top: 15px;
+            margin-right: 15px;
+            padding-bottom: 15px;
+            /* 圖片跟金線同屬一個區塊，所以在此用marggin無效，需要改用padding才能拉出空格*/
+            margin-left: auto;
+            border-bottom: 1px solid #D0A67D;
+            text-align: justify;
+        }
+
+        p.whitebg{
+            width: 300px;
+            padding-top: 14px;
+            padding-bottom: 22px;
+            padding-left: 38px;
+            padding-right: 37px;
+            background-color: #ffffff;
+        }
+
+        .toolbox {
+            width: 300px;
+            height: 36px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:23px ;
+        }
+
+        .toolbox>img {
+            height: 30px;
+            width: 30px;
+            margin-right: 15px;
+        }
+
+      
+        
+
+    
+
+    
+
+        
+                
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="mobile-block">
+        <div class="header">
+            <div class="logo">
+                <img src="https://github.com/nickhsine/teach-at-nccu/raw/master/assets/icons/twreporter-logo.svg">
+            </div>
+            <div class="ham">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        
+        <div class="subtitle">
+            Reporter Saturday Features
+        </div>
+
+        <h1>
+            【山思而行】登山中的死亡，對生命的凝視
+        </h1>
+        
+        <div>
+            <figure class = "hero-image">
+                <img src="https://www.twreporter.org/images/20200214133514-05611004a1d3a72fe4c955027f2d4c33-desktop.jpg">
+                <figcaption>登上山峰之途，就是在死亡的陰影之下，動用自身全部的感官與技藝，設法避開那些遭致危機的陷阱。圖為2016年2月，一支國際登山隊正跨越珠穆朗瑪峰基地營附近的冰川。（攝影／AP／Tashi
+                    Sherpa／達志影像）
+            </figure>
+        </div>
+        
+        <div class="toolbox">
+            <img src="https://github.com/nickhsine/teach-at-nccu/raw/master/assets/icons/add-bookmark-mobile.svg">
+            <img src="https://github.com/nickhsine/teach-at-nccu/raw/master/assets/icons/tool-text.svg">
+            <img src="https://github.com/nickhsine/teach-at-nccu/raw/master/assets/icons/tool-print.svg">
+            <img src="https://github.com/nickhsine/teach-at-nccu/raw/master/assets/icons/share-line.svg">
+            <img src="https://github.com/nickhsine/teach-at-nccu/raw/master/assets/icons/share-fb.svg">
+            <img src="https://github.com/nickhsine/teach-at-nccu/raw/master/assets/icons/share-twitter.svg">
+        </div>
+
+        <p>
+            講到登山，普遍的印象可能是壯闊的山景，雲海朝霞萬丈金芒；也可能是山上人與人之間的情誼，過地形時伸手扶一把，或濕冷雨天一碗熱呼呼的泡麵。我們在山中感受生命各種美好，汲取養分。就算是逆境，痛苦會過去，美會留下，回到人間後依舊能量滿滿再度出發。
+        </p>
+        <p>
+            做為人，不知為何，我們傾向記憶美好，卻遺忘過程的苦痛。但我卻想，這是否讓我們理解、記憶一件事情性質的方式，也隨之產生偏誤？
+        </p>
+        <p>
+            我想說的是，登山是件會死人的運動。
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="10" cy="10" r="10" transform="rotate(90 10 10)" fill="white" />
+                <path d="M10 15L5.66987 7.5L14.3301 7.5L10 15Z" fill="#D0A67D" />
+
+            </svg>
+        </p>
+        <p class="whitebg">
+            某程度上，登上山巔之途，就是在死亡的陰影之下，動用自身全部的感官與技藝，設法避開那些遭致危機的陷阱。這樣的經驗本身，就是一種回報，高處的風景與抵達最高點的滿足，則是額外的嘉獎。
+        </p>
+        <p>
+            那是個風和日麗的早晨，我跟阿果從標高5,600公尺的馬卡魯峰前進基地營帳篷中醒來。我倆前一天剛攀升至7,150公尺處進行適應攀登並下山，往後一週將是一系列壞天氣週期的到來，所以我們正準備迎接休息日的放鬆作息。
+        </p>
+        <p>
+            慢慢踱進餐廳帳，吃完千篇一律的鬆餅加煎蛋，正想放個音樂泡杯咖啡，這時外面有人叫我。是Lakpa。
+        </p>
+        <p>
+            Lakpa是隔壁營區的商業團"Pioneer Adventure"的老闆，今年除了我跟阿果，馬卡魯峰這裡還有同樣來自台灣的登山者三條魚，她就在這個隊伍中。
+        </p>
+        <p>
+            原本以為Lakpa是來約我們晚上去他們隊上吃個飯之類的，興高采烈的走出去跟他打招呼，沒想到他表情挺嚴肅：
+        </p>
+
+        <figure class="mobile-block" >
+            <img src="https://www.twreporter.org/images/20200214133536-860474831449c5e95fab1b3d7c98b3ad-desktop.jpg">
+            <figcaption>2017年3月，一隊登山者朝向尼泊爾羅布崎的登山營地前進。（攝影／AP／Tashi Sherpa／達志影像）
+        </figure>
+    </div>
+</body>
+
+</html>
